@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio Website Template</title>
+
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Fancybox CSS -->
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <!-- Navigation -->
+    <nav
+      class="navbar bg-light navbar-light navbar-expand-lg fixed-top site-navbar-target"
+    >
+      <div class="container">
+        <a href="#home-section" class="navbar-brand">
+          <img src="img/logo.png" class="logomain" alt="Logo" title="Title" />
+        </a>
+
+        <form action="" class="searchbar">
+          <div class="top_search">
+            <div class="input-group">
+              <span class="input-group-append">
+                <div
+                  class="input-group-text bg-transparent"
+                  style="
+                    background: #fff !important;
+                    border-right: 1px solid #fff !important;
+                  "
+                >
+                  <i class="fa fa-search"></i>
+                </div>
+              </span>
+              <input
+                class="form-control py-2 border-right-0 border"
+                type="text"
+                placeholder="Find Services"
+                style="border-radius: 3px 0 0 3px; border-left: none !important"
+              />
+
+              <div class="input-group-append">
+                <button
+                  class="btn btn-success"
+                  type="button"
+                  style="padding: 0px 10px !important; background: #1dbf73"
+                >
+                  Search
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home-section" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <a
+            href="#"
+            target="_blank"
+            class="btn btn-outline-success btn-md"
+            style="border-radius: 4px; padding: 3px 10px"
+            >Hire Me</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- End Navigation -->
+
+    <!-- Start Slider -->
+    <div id="home-section"></div>
+    <div
+      id="carousel"
+      class="carousel slide"
+      data-ride="carousel"
+      data-interval="3500"
+    >
+      <div class="searchOnCarousel">
+        <div class="container">
+          <div class="row">
+            <div class="form-section">
+              <h3>
+                Find the Web Development services <br />
+                for your business
+              </h3>
+
+              <form action="" class="">
+                <div class="top_search">
+                  <div class="input-group">
+                    <!-- <input type="text" class="form-control" placeholder="Find Services" style="border-radius: 3px 0 0 3px;"> -->
+                    <span class="input-group-append">
+                      <div
+                        class="input-group-text bg-transparent"
+                        style="
+                          background: #fff !important;
+                          border-right: 1px solid #fff !important;
+                        "
+                      >
+                        <i class="fa fa-search"></i>
+                      </div>
+                    </span>
+                    <input
+                      class="form-control py-2 border-right-0 border"
+                      type="text"
+                      placeholder="Try 'Website Design' "
+                      style="
+                        border-radius: 0px 0 0 0px;
+                        border-left: none !important;
+                      "
+                    />
+
+                    <div class="input-group-append">
+                      <button
+                        class="btn btn-success"
+                        type="button"
+                        style="
+                          padding: 0px 10px !important;
+                          background: #1dbf73;
+                        "
+                      >
+                        Search
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <p
+                style="
+                  margin-top: 10px;
+                  font-weight: 500;
+                  color: rgb(85, 84, 84);
+                "
+              >
+                Popular: <span style="margin-left: 10px"></span>
+                <a href="#" class="tags-search">Web Design</a>
+                <a href="#" class="tags-search">Web Development</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <!-- Carousel Content -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carousel/1.jpg" class="w-100" alt="" />
+        </div>
+        <div class="carousel-item">
+          <img src="img/carousel/2.jpg" class="w-100" alt="" />
+        </div>
+        <div class="carousel-item">
+          <img src="img/carousel/3.jpg" class="w-100" alt="" />
+        </div>
+        <!-- End Carousel Content -->
+        <!-- Carousel Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <!-- End Carousel Indicators -->
+      </div>
+    </div>
+    <!-- End Slider -->
+    <div id="about"></div>
+
+    <!-- Start Social Media -->
+    <div class="social-media">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 pt-1">
+            <ul class="social">
+              <li>
+                <a href="" target="_blank"
+                  ><i class="fab fa-facebook" style="color: #c2c2c2"></i
+                ></a>
+              </li>
+              <li>
+                <a href="" target="_blank"
+                  ><i class="fab fa-twitter" style="color: #c2c2c2"></i
+                ></a>
+              </li>
+              <li>
+                <a href="" target="_blank"
+                  ><i class="fab fa-instagram-square" style="color: #c2c2c2"></i
+                ></a>
+              </li>
+              <li>
+                <a href="" target="_blank"
+                  ><i class="fab fa-youtube" style="color: #c2c2c2"></i
+                ></a>
+              </li>
+              <li>
+                <a href="" target="_blank"
+                  ><i class="fab fa-pinterest" style="color: #c2c2c2"></i
+                ></a>
+              </li>
+              <li>
+                <a href="" target="_blank"
+                  ><i class="fab fa-linkedin" style="color: #c2c2c2"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Social Media -->
+
+    <!-- Start About -->
+    <div class="col-12 text-center mt-3">
+      <h1 class="display-6 pt-4 text-capitalize">About Me</h1>
+      <div class="border-top border-gray mx-auto my-3" style="width: 20%"></div>
+      <p class="lead">Professional Website Designer</p>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row py-1">
+        <div class="col-lg-6 mb-4 my-lg-auto">
+          <h1 class="font-weight-bold mb-3">YOUR NAME</h1>
+          <p class="lead"><strong>Website Design and Development</strong></p>
+          <p class="mb-4">
+            Hello! I am Porfolio. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Sapiente voluptatum vitae laborum! Cupiditate
+            officiis pariatur eaque exercitationem minus ipsam ducimus quod
+            repudiandae, obcaecati.
+          </p>
+          <a
+            href="#"
+            class="btn btn-outline-success btn-lg"
+            style="border-radius: 0px; padding: 3px 10px"
+            >Contact with me on Skype</a
+          >
+        </div>
+        <div class="col-lg-6">
+          <img
+            src="img/person.png"
+            alt=""
+            style="width: 400px"
+            class="float-right"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Start Gig -->
+    <div class="container">
+      <div class="col-12 text-left mt-2">
+        <p class="lead" style="font-size: 30px; font-weight: bold">
+          Choose what service you need
+        </p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4 col-sm-12 py-3">
+          <div class="card" style="width: 18rem; height: 26rem">
+            <img class="card-img-top" src="img/website-design.jpeg" alt="" />
+            <div class="card-body" style="padding: 1.2rem 10px">
+              <p>I will design your professional website</p>
+            </div>
+            <div class="card-footer">
+              <p
+                class="text-muted"
+                style="
+                  float: left;
+                  padding-bottom: 0;
+                  margin-bottom: 0;
+                  font-weight: bold;
+                  font-size: 16px;
+                "
+              >
+                <a href="">ORDER NOW </a>
+              </p>
+              <p
+                class="text-muted"
+                style="
+                  float: right;
+                  padding-bottom: 0;
+                  margin-bottom: 0;
+                  font-weight: bold;
+                  font-size: 16px;
+                "
+              >
+                STARTING AT $150
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-sm-12 py-3">
+          <div class="card" style="width: 18rem; height: 26rem">
+            <img class="card-img-top" src="img/responsive.jpg" alt="" />
+            <div class="card-body" style="padding: 1.2rem 10px">
+              <p>I will design your resonsive website</p>
+            </div>
+            <div class="card-footer">
+              <p
+                class="text-muted"
+                style="
+                  float: left;
+                  padding-bottom: 0;
+                  margin-bottom: 0;
+                  font-weight: bold;
+                  font-size: 16px;
+                "
+              >
+                <a href="">ORDER NOW </a>
+              </p>
+              <p
+                class="text-muted"
+                style="
+                  float: right;
+                  padding-bottom: 0;
+                  margin-bottom: 0;
+                  font-weight: bold;
+                  font-size: 16px;
+                "
+              >
+                STARTING AT $200
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-sm-12 py-3">
+          <div class="card" style="width: 18rem; height: 26rem">
+            <img class="card-img-top" src="img/react-frontend.jpeg" alt="" />
+            <div class="card-body" style="padding: 1.2rem 10px">
+              <p>I will design REACT fronend Website</p>
+            </div>
+            <div class="card-footer">
+              <p
+                class="text-muted"
+                style="
+                  float: left;
+                  padding-bottom: 0;
+                  margin-bottom: 0;
+                  font-weight: bold;
+                  font-size: 16px;
+                "
+              >
+                <a href="">ORDER NOW </a>
+              </p>
+              <p
+                class="text-muted"
+                style="
+                  float: right;
+                  padding-bottom: 0;
+                  margin-bottom: 0;
+                  font-weight: bold;
+                  font-size: 16px;
+                "
+              >
+                STARTING AT $1200
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-sm-12 py-3">
+          <div class="card" style="width: 18rem; height: 26rem">
+            <img class="card-img-top" src="img/website-design.jpeg" alt="" />
+            <div class="card-body" style="padding: 1.2rem 10px">
+              <p>I will design your professional website</p>
+            </div>
+            <div class="card-footer">
+              <p
+                class="text-muted"
+                style="
+                  float: left;
+                  padding-bottom: 0;
+                  margin-bottom: 0;
+                  font-weight: bold;
+                  font-size: 16px;
+                "
+              >
+                <a href="">ORDER NOW </a>
+              </p>
+              <p
+                class="text-muted"
+                style="
+                  float: right;
+                  padding-bottom: 0;
+                  margin-bottom: 0;
+                  font-weight: bold;
+                  font-size: 16px;
+                "
+              >
+                STARTING AT $150
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-sm-12 py-3">
+          <div class="card" style="width: 18rem; height: 26rem">
+            <img class="card-img-top" src="img/responsive.jpg" alt="" />
+            <div class="card-body" style="padding: 1.2rem 10px">
+              <p>I will design your resonsive website</p>
+            </div>
+            <div class="card-footer">
+              <p
+                class="text-muted"
+                style="
+                  float: left;
+                  padding-bottom: 0;
+                  margin-bottom: 0;
+                  font-weight: bold;
+                  font-size: 16px;
+                "
+              >
+                <a href="">ORDER NOW </a>
+              </p>
+              <p
+                class="text-muted"
+                style="
+                  float: right;
+                  padding-bottom: 0;
+                  margin-bottom: 0;
+                  font-weight: bold;
+                  font-size: 16px;
+                "
+              >
+                STARTING AT $200
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-sm-12 py-3">
+          <div class="card" style="width: 18rem; height: 26rem">
+            <img class="card-img-top" src="img/react-frontend.jpeg" alt="" />
+            <div class="card-body" style="padding: 1.2rem 10px">
+              <p>I will design REACT fronend Website</p>
+            </div>
+            <div class="card-footer">
+              <p
+                class="text-muted"
+                style="
+                  float: left;
+                  padding-bottom: 0;
+                  margin-bottom: 0;
+                  font-weight: bold;
+                  font-size: 16px;
+                "
+              >
+                <a href="">ORDER NOW </a>
+              </p>
+              <p
+                class="text-muted"
+                style="
+                  float: right;
+                  padding-bottom: 0;
+                  margin-bottom: 0;
+                  font-weight: bold;
+                  font-size: 16px;
+                "
+              >
+                STARTING AT $1200
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Gig -->
+
+    <!-- Start Portfolio -->
+    <section id="portfolio">
+      <div class="container">
+        <div class="col-12 text-center mt-5">
+          <h1 class="display-6 pt-4 text-capitalize">Check My Recent Work</h1>
+          <div
+            class="border-top border-gray mx-auto my-3"
+            style="width: 20%"
+          ></div>
+          <p class="lead">My recent works you may like</p>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-default filter-button" data-filter="all">
+            All
+          </button>
+          <button class="btn btn-default filter-button" data-filter="wdesign">
+            Website Design
+          </button>
+          <button class="btn btn-default filter-button" data-filter="rdesign">
+            Responsive Design
+          </button>
+          <button class="btn btn-default filter-button" data-filter="rfrontend">
+            React Frontend
+          </button>
+          <button class="btn btn-default filter-button" data-filter="nbackend">
+            Nodej Backend
+          </button>
+        </div>
+        <div class="row">
+          <div class="gallery_product col-md-4 filter wdesign p-0">
+            <a
+              href="img/website-design.jpeg"
+              class="item-wrap fancybox"
+              data-fancybox="gallery2"
+            >
+              <img class="img-fluid" src="img/website-design.jpeg" />
+              <section class="portfolio_over">
+                <h1>Website Design</h1>
+              </section>
+            </a>
+          </div>
+
+          <div class="gallery_product col-md-4 filter rdesign p-0">
+            <a
+              href="img/responsive.jpg"
+              class="item-wrap fancybox"
+              data-fancybox="gallery2"
+            >
+              <img class="img-fluid" src="img/responsive.jpg" />
+              <section class="portfolio_over">
+                <h1>Responsive Design</h1>
+              </section>
+            </a>
+          </div>
+
+          <div class="gallery_product col-md-4 filter rfrontend p-0">
+            <a
+              href="img/react-frontend.jpeg"
+              class="item-wrap fancybox"
+              data-fancybox="gallery2"
+            >
+              <img class="img-fluid" src="img/react-frontend.jpeg" />
+              <section class="portfolio_over">
+                <h1>React Frontend</h1>
+              </section>
+            </a>
+          </div>
+
+          <div class="gallery_product col-md-4 filter nbackend p-0">
+            <a
+              href="img/nodejs.jpeg"
+              class="item-wrap fancybox"
+              data-fancybox="gallery2"
+            >
+              <img class="img-fluid" src="img/nodejs.jpeg" />
+              <section class="portfolio_over">
+                <h1>Nodejs Backend</h1>
+              </section>
+            </a>
+          </div>
+
+          <div class="gallery_product col-md-4 filter nbackend p-0">
+            <a
+              href="img/node.jpg"
+              class="item-wrap fancybox"
+              data-fancybox="gallery2"
+            >
+              <img class="img-fluid" src="img/node.jpg" />
+              <section class="portfolio_over">
+                <h1>Nodejs Backend</h1>
+              </section>
+            </a>
+          </div>
+
+          <div class="gallery_product col-md-4 filter rfrontend p-0">
+            <a
+              href="img/react.jpg"
+              class="item-wrap fancybox"
+              data-fancybox="gallery2"
+            >
+              <img class="img-fluid" src="img/react.jpg" />
+              <section class="portfolio_over">
+                <h1>React Frontend</h1>
+              </section>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Portfolio -->
+
+    <!-- Start Contact Form -->
+    <section id="contact">
+      <div class="container">
+        <div class="col-12 text-center mt-5">
+          <h1 class="display-6 pt-4 text-capitalize">Contact With Us</h1>
+          <div
+            class="border-top border-gray mx-auto my-3"
+            style="width: 20%"
+          ></div>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum illo
+            dolorem similique
+          </p>
+        </div>
+
+        <div class="col-12">
+          <form class="my-5">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="fname">Your First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="fname"
+                  placeholder="Jhon"
+                />
+              </div>
+
+              <div class="form-group col-md-6">
+                <label for="lname">Your Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lname"
+                  placeholder="Smith"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail Address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="john@domain.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="address">Address</label>
+              <input
+                type="text"
+                class="form-control"
+                id="address"
+                placeholder="1234 Main St"
+              />
+            </div>
+            <div class="form-group">
+              <label for="address2">Address 2</label>
+              <input
+                type="text"
+                class="form-control"
+                id="address2"
+                placeholder="Your Address"
+              />
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="city">City</label>
+                <input type="text" class="form-control" id="city" />
+              </div>
+              <div class="form-group col-md-6">
+                <label for="pcode">Postal Code</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="pcode"
+                  placeholder="12000"
+                />
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">
+              SEND MESSAGE
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Form -->
+    <hr />
+    <!-- Start Footer -->
+    <footer>
+      <div class="container">
+        <div class="row text-left text-dark">
+          <div class="col-md-3">
+            <h5>About</h5>
+            <p><a href="">Privacy Policy</a></p>
+            <p><a href="">Terms of Service</a></p>
+          </div>
+
+          <div class="col-md-3">
+            <h5>Categories</h5>
+            <p><a href="">Website Design</a></p>
+            <p><a href="">React Frontend App</a></p>
+            <p><a href="">Nodejs Backend</a></p>
+          </div>
+
+          <div class="col-md-3">
+            <h5>Subscribe</h5>
+            <form action="">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your Email"
+                style="margin-bottom: 8px"
+              />
+              <input
+                type="submit"
+                class="btn btn-md btn-success btn-block"
+                value="Submit"
+              />
+            </form>
+          </div>
+
+          <div class="col-md-3">
+            <h5>Follow Me</h5>
+            <p>
+              <a href="" target="_blank"
+                ><i
+                  class="fab fa-facebook footer_social"
+                  style="color: #c2c2c2"
+                ></i
+              ></a>
+              <a href="" target="_blank"
+                ><i
+                  class="fab fa-twitter footer_social"
+                  style="color: #c2c2c2"
+                ></i
+              ></a>
+              <a href="" target="_blank"
+                ><i
+                  class="fab fa-instagram-square footer_social"
+                  style="color: #c2c2c2"
+                ></i
+              ></a>
+              <a href="" target="_blank"
+                ><i
+                  class="fab fa-youtube footer_social"
+                  style="color: #c2c2c2"
+                ></i
+              ></a>
+              <a href="" target="_blank"
+                ><i
+                  class="fab fa-pinterest footer_social"
+                  style="color: #c2c2c2"
+                ></i
+              ></a>
+              <a href="" target="_blank"
+                ><i
+                  class="fab fa-linkedin footer_social"
+                  style="color: #c2c2c2"
+                ></i
+              ></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- End Footer -->
+
+    <!-- Start Socket -->
+    <div class="copyright text-dark py-1">
+      <div class="container">
+        <div class="float-left p-1">
+          <img
+            src="img/logo.png"
+            alt=""
+            style="width: 175px; margin-top: -8px"
+            class=""
+          />
+          &nbsp;
+          <span style="color: #c2c2c2; padding-top: 10px"
+            >© Portfolio 2020 | All rights reserved</span
+          >
+        </div>
+
+        <div class="float-right p-1">
+          <p>
+            <a href="" target="_blank"
+              ><i
+                class="fab fa-facebook footer_social_bottom"
+                style="color: #c2c2c2"
+              ></i
+            ></a>
+            <a href="" target="_blank"
+              ><i
+                class="fab fa-twitter footer_social_bottom"
+                style="color: #c2c2c2"
+              ></i
+            ></a>
+            <a href="" target="_blank"
+              ><i
+                class="fab fa-instagram-square footer_social_bottom"
+                style="color: #c2c2c2"
+              ></i
+            ></a>
+            <a href="" target="_blank"
+              ><i
+                class="fab fa-youtube footer_social_bottom"
+                style="color: #c2c2c2"
+              ></i
+            ></a>
+            <a href="" target="_blank"
+              ><i
+                class="fab fa-pinterest footer_social_bottom"
+                style="color: #c2c2c2"
+              ></i
+            ></a>
+            <a href="" target="_blank"
+              ><i
+                class="fab fa-linkedin footer_social_bottom"
+                style="color: #c2c2c2"
+              ></i
+            ></a>
+          </p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+
+    <!-- End Socket -->
+
+    <!-- Script Source Files -->
+    <!-- jQuery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Fancy Box -->
+    <script src="js/jquery.fancybox.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Popper JS -->
+    <script src="js/popper.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="js/all.min.js"></script>
+    <!-- Custom Js File -->
+    <script src="js/main.js"></script>
+    <!-- End Script Source Files -->
+
+    <script>
+      $(document).ready(function () {
+        // Tobar Search Form
+        $(window).scroll(function () {
+          var scroll = $(window).scrollTop()
+
+          if (scroll >= 1) {
+            $('.searchbar').addClass('visible') // removed the . from class
+          } else {
+            $('.searchbar').removeClass('visible') // removed the . from class
+          }
+        })
+
+        // Masonary With Filters
+        $('.filter-button').click(function () {
+          var value = $(this).attr('data-filter')
+
+          if (value == 'all') {
+            $('.filter').show('1000')
+          } else {
+            $('.filter')
+              .not('.' + value)
+              .hide('3000')
+            $('.filter')
+              .filter('.' + value)
+              .show('3000')
+          }
+        })
+
+        if ($('.filter-button').removeClass('active')) {
+          $(this).removeClass('active')
+        }
+        $(this).addClass('active')
+      })
+    </script>
+  </body>
+</html>

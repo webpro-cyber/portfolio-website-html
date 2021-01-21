@@ -1,0 +1,355 @@
+/* Reset */
+
+html,
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: large;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVIGATION */
+.navbar-brand img {
+  height: 2.8rem;
+}
+.navbar {
+  background: linear-gradient(to right, #f2f2f2, #fbfbfb);
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  letter-spacing: 0.09rem;
+  box-shadow: 0 0.3rem 0.3rem rgba(185, 184, 184, 0.2);
+  min-height: 90px;
+}
+
+.nav-item {
+  padding: 0.4rem;
+}
+.nav-link {
+  color: black !important;
+}
+.nav-link.active,
+.nav-link:hover {
+  color: #1fd0b6 !important;
+}
+
+/* Search */
+
+.searchbar {
+  opacity: 0;
+}
+.visible {
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.top_search input[type='text']:focus {
+  border-color: #fbfbfb;
+  box-shadow: 0 0px 0px #fbfbfb;
+  outline: 0 none;
+}
+
+.top_search .btn-success:focus {
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}
+
+/* CAROUSEL */
+.carousel-inner {
+  max-height: 35rem !important;
+  background: #eef2f5;
+}
+
+/* Change Carousel Transition Speed */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  transition: transform 1.2s ease;
+}
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+  margin-left: 4px;
+  border-radius: 50%;
+  background-color: #31e45a;
+}
+
+/* Carousel Content */
+
+.carousel-item img {
+  height: 580px;
+}
+.bg-white {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  padding: 3rem;
+}
+.carousel-caption h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+p.lead {
+  font-size: 1.4rem;
+}
+.searchOnCarousel {
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  top: 35%;
+}
+a.tags-search {
+  padding: 2px 8px;
+  border: 1px solid rgb(85, 84, 84);
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(85, 84, 84);
+  transition: all 0.3s;
+}
+a.tags-search:hover {
+  text-decoration: none;
+  background: rgb(227, 246, 233);
+}
+
+/* Masonnary */
+#portfolio {
+  padding: 20px 0px 60px 0px;
+  margin: 0 auto;
+}
+.gallery-title {
+  font-size: 36px;
+  color: #222;
+  text-align: center;
+  font-weight: 700;
+  padding: 40px 20px 60px;
+}
+.filter-button {
+  font-size: 18px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  text-align: center;
+  color: #444;
+  margin-bottom: 38px;
+}
+.filter-button:hover {
+  font-size: 18px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  background: green;
+}
+.filter-button:focus {
+  border-color: #fbfbfb;
+  box-shadow: 0 0px 0px #fbfbfb;
+  outline: 0 none;
+}
+.btn-default:active .filter-button:active {
+  background-color: green;
+  color: #fff;
+}
+.gallery_product {
+  text-decoration: none;
+  position: relative;
+  width: 100%;
+  height: 280px;
+}
+
+.gallery_product img {
+  width: 100%;
+  height: 280px;
+}
+.portfolio_over {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.portfolio_over h1 {
+  font-size: 18px;
+  text-align: left;
+  padding: 25px 20px;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+/* SOCIAL MEDIA */
+
+.social-media {
+  background: linear-gradient(to right, #f2f2f2, #fbfbfb);
+  padding: 1rem 0 0.5rem;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+ul.social {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+}
+ul.social li {
+  margin: 0 auto;
+}
+.social-media .svg-inline--fa {
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+.social-media .svg-inline--fa:hover {
+  color: gray !important;
+}
+
+/* Card Gigs*/
+/* .card_main > div[class*='col-'] {
+	display: flex;
+	flex: 1 0 auto;
+} */
+
+/* COLUMN CONTENT */
+.fa-square {
+  opacity: 0.05;
+}
+
+/* FOOTER */
+footer {
+  background-color: #fff;
+  padding: 3rem 2rem 3rem;
+}
+footer h5 {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+footer a,
+.socket a {
+  color: rgb(56, 56, 56);
+  text-decoration: none;
+  font-size: 15px;
+}
+footer a:hover,
+.socket a:hover {
+  color: rgb(56, 56, 56);
+  text-decoration: none;
+}
+
+.footer_social {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.footer_social_bottom {
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+/* SOCKET */
+.copyright {
+  background-color: #fff;
+  border-top: 0.1rem solid rgb(221, 221, 221);
+}
+
+/* RESPONSIVE DESIGN MEDIA QUERIES */
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+  .carousel-caption h3 {
+    font-size: 1.8rem;
+  }
+}
+/* Devices under 992px (xl) */
+@media (max-width: 991.98px) {
+  p.lead {
+    font-size: 1.2rem;
+  }
+  .carousel-indicators li {
+    width: 30px;
+    height: 4px;
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+}
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+  p.lead {
+    font-size: 1.1rem;
+  }
+  .navbar-brand img {
+    height: 2.5rem;
+  }
+  .navbar {
+    font-size: 1rem;
+    padding: 0.4rem 0.6rem;
+  }
+
+  .carousel-item {
+    height: 500px;
+  }
+  .searchOnCarousel {
+    background: #eef2f5;
+    height: 400px;
+    padding-top: 50px;
+  }
+
+  .carousel-item img {
+    height: 0;
+  }
+}
+/* Devices under 576px (sm) */
+@media (max-width: 575.98px) {
+  .navbar-brand img {
+    height: 2.3rem;
+  }
+  .navbar {
+    font-size: 0.9rem;
+    padding: 0.3rem 0.6rem;
+  }
+  .jumbotron .svg-inline--fa {
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+  }
+  .searchOnCarousel {
+    background: #eef2f5;
+    height: 300px;
+    padding-top: 50px;
+  }
+  .searchOnCarousel .form-section h3 {
+    font-size: 1.3rem;
+  }
+
+  .carousel-item img {
+    height: 0;
+  }
+
+  .social-media .svg-inline--fa {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+  }
+}
+
+/* Bootstrap Mobile Gutter Fix */
+.row,
+.container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
